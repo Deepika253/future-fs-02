@@ -55,7 +55,7 @@ export default function Cart({ onClose, onCheckout }) {
                   <div className="flex-1">
                     <h3 className="font-semibold">{product.title}</h3>
                     <div className="text-sm text-gray-600">
-                      ${product.price.toFixed(2)}
+                      ₹{product.price.toFixed(2)}
                     </div>
                   </div>
                   <input
@@ -70,12 +70,12 @@ export default function Cart({ onClose, onCheckout }) {
                       )
                     }
                     className="w-16 border rounded px-2 py-1"
-                    aria-label={`Quantity for ${product.title}`}
+                    aria-label={`Quantity for ₹{product.title}`}
                   />
                   <button
                     onClick={() => removeItem(product.id)}
                     className="text-red-600 hover:text-red-800"
-                    aria-label={`Remove ${product.title} from cart`}
+                    aria-label={`Remove ₹{product.title} from cart`}
                   >
                     &times;
                   </button>
@@ -84,7 +84,7 @@ export default function Cart({ onClose, onCheckout }) {
             </ul>
 
             <div className="mt-4 flex justify-between items-center font-bold text-lg">
-              <span>Total: ${totalPrice.toFixed(2)}</span>
+              <span>Total: ₹{totalPrice.toFixed(2)}</span>
               <div>
                 <button
                   onClick={onClose}
