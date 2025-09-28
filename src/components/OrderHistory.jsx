@@ -24,7 +24,7 @@ export default function OrderHistory() {
             className="border rounded p-4 shadow-sm bg-white"
             aria-label={`Order placed on ${new Date(
               order.date
-            ).toLocaleString()} with total $${order.total.toFixed(2)}`}
+            ).toLocaleString()} with total ₹${order.total.toFixed(2)}`}
           >
             <div className="mb-2 font-semibold">
               Order placed: {new Date(order.date).toLocaleString()}
@@ -39,12 +39,12 @@ export default function OrderHistory() {
                   <span>
                     {product.title} x {qty}
                   </span>
-                  <span>${(product.price * qty).toFixed(2)}</span>
+                  <span>₹{(product.price * qty).toFixed(2)}</span>
                 </li>
               ))}
             </ul>
             <div className="text-right font-bold">
-              Total: ${order.total.toFixed(2)}
+              Total: ₹{order.total.toFixed(2)}
             </div>
           </li>
         ))}
