@@ -23,7 +23,7 @@ export default function ProductCard({ product }) {
         <p className="flex-1 text-sm mt-1 text-gray-600">
           {product.description}
         </p>
-        <div className="mt-2 font-bold">${product.price.toFixed(2)}</div>
+        <div className="mt-2 font-bold">₹{product.price.toFixed(2)}</div>
       </div>
     </div>
   );
