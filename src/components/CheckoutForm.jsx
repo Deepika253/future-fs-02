@@ -230,7 +230,7 @@ export default function CheckoutForm({ onClose, onOrderPlaced }) {
         </div>
 
         <div className="flex justify-between items-center font-bold text-lg">
-          <span>Total: ${totalPrice.toFixed(2)}</span>
+          <span>Total: ₹{totalPrice.toFixed(2)}</span>
           <div>
             <button
               type="button"
