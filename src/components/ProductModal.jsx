@@ -51,7 +51,7 @@ export default function ProductModal() {
         <p className="mb-4 text-gray-700">{product.description}</p>
 
         <div className="mb-4 font-bold text-xl">
-          ${product.price.toFixed(2)}
+          ₹{product.price.toFixed(2)}
         </div>
 
         <div className="flex items-center space-x-4">
