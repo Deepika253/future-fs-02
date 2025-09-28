@@ -4,7 +4,7 @@ export const products = [
     title: "Wireless Headphones",
     description: "High-quality wireless headphones with noise cancellation.",
     category: "electronics",
-    price: 99.99,
+    price: 999.99,
     image:
       "https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?q=80&w=800&auto=format&fit=crop",
   },
@@ -13,7 +13,7 @@ export const products = [
     title: "Smartwatch",
     description: "Fitness smartwatch with heart rate sensor and GPS.",
     category: "electronics",
-    price: 149.99,
+    price: 1499.99,
     image:
       "https://images.unsplash.com/photo-1660844817855-3ecc7ef21f12?q=80&w=400&auto=format&fit=crop",
   },
@@ -22,7 +22,7 @@ export const products = [
     title: "Leather Bag",
     description: "Stylish leather bag for everyday use.",
     category: "fashion",
-    price: 75.0,
+    price: 750.0,
     image:
       "https://images.unsplash.com/photo-1479219136056-56bb6495a005?q=80&w=800&auto=format&fit=crop",
   },
@@ -31,7 +31,7 @@ export const products = [
     title: "Running Shoes",
     description: "Comfortable and durable running shoes.",
     category: "fashion",
-    price: 120.0,
+    price: 1200.0,
     image:
       "https://plus.unsplash.com/premium_photo-1672046218369-67e12ed1c364?q=80&w=800&auto=format&fit=crop",
   },
@@ -40,7 +40,7 @@ export const products = [
     title: "Coffee Maker",
     description: "Automatic coffee maker with timer.",
     category: "home",
-    price: 55.99,
+    price: 5500.99,
     image:
       "https://images.unsplash.com/photo-1608354580875-30bd4168b351?q=80&w=800&auto=format&fit=crop",
   },
